@@ -87,14 +87,23 @@ else:
 ### loops #####
 ```
 ---
-for val in range(l1):
+# for list - l1
+for val in l1:
     print(val)
+---
+# for dict - dict1
+for k,v in dict1.items():
+    print(k,v)
+OR
+for k in dict1.keys():
+    print(k,dict1[k])   
 ---
 i = 0
 while i<len(l1):
     print(l1[i])
     i++
 ---
+
 ```
 ### functions ####
 
