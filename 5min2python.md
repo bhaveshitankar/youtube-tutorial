@@ -74,14 +74,16 @@ Advanced once   |
 -----------------------------------------------------------------------------------------------------
 
 ### conditions #####
+```
 if i>0 and j<0:
 
 elif condition:
-Note: elif can be replaced with "else if"
+#Note: elif can be replaced with "else if"
 
 else:
-
+```
 ### loops #####
+```
 ---
 for val in range(l1):
     print(val)
@@ -91,8 +93,10 @@ while i<len(l1):
     print(l1[i])
     i++
 ---
+```
 ### functions ####
 
+```
 def adder(param1,param2=2):
     return param1+param2
 
@@ -103,16 +107,18 @@ def adder(*args):
 
 def adder(**kargs):
     print(kargs)
-
+```
 ### classes & Objects ###
+```
 class A:
     def __init__(self,var1_value=5):
         self.var1 = var1_value
     def A_printer(self):
         print(self.A)
-
+```
 
 ### inheritance ###
+```
 class Person:
   def __init__(self, fname=1, lname=2):
     self.firstname = fname
@@ -127,9 +133,9 @@ class Student(Person):
 
 x = Student("Mike", "Olsen")
 x.printname()
-
+```
 ### file_handling ###
-
+```
 with open(r'.\app.log', 'r') as fh:
     file_data = fh.read()
     print(file_data)
@@ -140,3 +146,4 @@ fh = open(r'.\app.log', 'r')
 file_data = fh.read()
 print(file_data)
 fh.close()
+```
